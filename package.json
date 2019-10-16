@@ -1,6 +1,6 @@
 {
-  "name": "myKoajsRestApp",
-  "version": "3.5.3",
+  "name": "rApp-Rest",
+  "version": "0.0.1",
   "description": "A simple Koajs 2 REST Application Skeleton in ES6 style",
   "author": {
     "name": "lucuicheng",
