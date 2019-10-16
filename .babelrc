@@ -1,0 +1,31 @@
+{
+  "plugins": [
+    [
+      "babel-plugin-root-import",
+      {
+        "paths": [
+          {
+            "rootPathSuffix": "./app",
+            "rootPathPrefix": "@/"
+          },
+          {
+            "rootPathSuffix": "./app/page",
+            "rootPathPrefix": "$/"
+          },
+          {
+            "rootPathSuffix": "./app/components",
+            "rootPathPrefix": "~/"
+          },
+          {
+            "rootPathSuffix": "./app/utils",
+            "rootPathPrefix": "!/"
+          },
+          {
+            "rootPathSuffix": "./app/services",
+            "rootPathPrefix": "&/"
+          }
+        ]
+      }
+    ]
+  ]
+}
