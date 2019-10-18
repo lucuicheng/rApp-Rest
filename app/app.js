@@ -12,7 +12,7 @@ app.use(allowedMethods());
 
 const connectMongoDB = () => {
     console.log('connecting mongodb...');
-    const dbUrl = process.env.MONGO_URL || 'mongodb://192.168.0.100:27017/TA';//数据库地址
+    const dbUrl = process.env.MONGO_URL || 'mongodb://192.168.0.100:27017/TA';//数据库地址//TODO 统一使用配置文件中的类
     mongoose.connect(dbUrl, {useNewUrlParser: true, useFindAndModify: false, useUnifiedTopology: true});//尝试连接数据库
     const db = mongoose.connection;
     db.on('open', function (res) {
