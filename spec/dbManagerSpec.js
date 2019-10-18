@@ -1,4 +1,4 @@
-const myDb = require('../app/managers/testDbManager'),
+const myDb = require('../app/settings/testDbManager'),
       item = {id:2, name: "test2" };
 
 describe('myDB Tests', function () {

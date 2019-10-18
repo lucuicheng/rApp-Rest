@@ -1,4 +1,4 @@
-var amqpManager = require('../../app/managers/amqpManager');
+var amqpManager = require('../../app/settings/amqpManager');
 
 async function handler(body) {
     console.log('Processing: ' + JSON.stringify(body));
